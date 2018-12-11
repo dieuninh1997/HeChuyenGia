@@ -41,12 +41,11 @@
             this.groupBox1.Size = new System.Drawing.Size(509, 281);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "History";
             // 
             // txtView
             // 
             this.txtView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtView.Enabled = false;
             this.txtView.Location = new System.Drawing.Point(3, 16);
             this.txtView.Multiline = true;
             this.txtView.Name = "txtView";

@@ -43,7 +43,7 @@ namespace WhatSongShouldYouListenTo
                     HasSolution = true;
                     foreach (Match match in matches)
                     {
-                        result += v[match.ToString()].ToString();
+                        result += v[match.ToString()].ToString()+",";
                     }
                 }
                 if (matches.Count == 0)
